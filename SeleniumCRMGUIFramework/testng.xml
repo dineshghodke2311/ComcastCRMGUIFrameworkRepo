@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="http://localhost:8888/"></parameter>
+<parameter name="username" value="admin"></parameter>
+<parameter name="password" value="manager"></parameter>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="practice_datadriven_testing.Read_the_commondata_from_TestNGXmlTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
